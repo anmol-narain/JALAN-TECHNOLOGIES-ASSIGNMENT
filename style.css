@@ -1,0 +1,61 @@
+body {
+  height: 100vh;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+h1{
+    color: azure;
+}
+#current-time {
+  font-size: 42px;
+  color: azure;
+}
+#current-time,
+.create-alarm,
+h1,
+#active-alarm {
+  text-align: center;
+  font-size: 30px;
+  color: azure;
+}
+.create-alarm,
+.alarm-inputs,
+#active-alarm {
+  margin-top: 20px;
+}
+input {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 17px;
+  font-style: bold;
+  text-align: center;
+}
+.zoneBtn{
+    margin: 5px;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 17px;
+  font-style: bold;
+  text-align: center;
+}
+.alarm-inputs,
+#alarm-text {
+  margin-bottom: 30px;
+}
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: yellow;
+    font-size: 17px
+}
+#active-alarm {
+  display: none;
+}
